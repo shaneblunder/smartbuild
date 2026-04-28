@@ -1,139 +1,109 @@
 # smartbuild
 
-> The world's first AI-powered, cognitively enhanced, context-aware build orchestration intelligence layer.
+> Autonomous AI build orchestration for repositories that are tired of being understood by humans.
 
-![Status](https://img.shields.io/badge/status-disrupting-blue)
-![AI](https://img.shields.io/badge/AI-100%25%20probably-purple)
-![Build](https://img.shields.io/badge/build-smart-green)
-![VC Ready](https://img.shields.io/badge/VC_ready-yes-gold)
+![Status](https://img.shields.io/badge/status-autonomous-blue)
+![AI](https://img.shields.io/badge/AI-neural%20build%20detection-purple)
+![Confidence](https://img.shields.io/badge/confidence-99.7%25-brightgreen)
+![Rust](https://img.shields.io/badge/written%20in-Rust-orange)
+![Enterprise](https://img.shields.io/badge/enterprise-contact%20sales-gold)
 
 ---
 
 ## What is smartbuild?
 
-**smartbuild** is not just a build tool.
+**smartbuild** is the next evolutionary phase of build tooling: an intelligent, autonomous, terminal-native AI experience layer that scans your project, detects its build system, and delegates execution to the correct underlying build mechanism.
 
-It is a paradigm shift.
-
-It is the moment software engineering looked at traditional build systems and asked:
-
-> “What if this had AI?”
-
-And then we did exactly that.
-
-`smartbuild` leverages a revolutionary alias-driven architecture to intelligently delegate complex build decisions to one of the most battle-tested build engines in computing history: `make`.
-
-Yes.
-
-At its core, `smartbuild` may appear to be a thin wrapper around existing build tools.
-
-But appearances are exactly what legacy developers rely on.
-
-We are different.
-
-We are building the future.
-
----
-
-## Why smartbuild?
-
-Traditional build tools expect you to know what you are doing.
-
-That is no longer acceptable.
-
-In the age of AI, your build system should feel intelligent, even when it is mostly running the same command it always has.
-
-With **smartbuild**, every build becomes an emotionally validated, AI-adjacent productivity experience.
-
-Instead of typing:
+In other words:
 
 ```sh
-make # or equivalent
+smartbuild .
 ```
 
-You type:
+Then smartbuild stares deeply into your repository’s soul and decides whether it is dealing with Cargo, npm, CMake, Make, Gradle, Maven, Go, Python, Meson, or whichever build ritual your codebase has chosen as its emotional support system.
 
-```sh
-smartbuild
-```
+Is it artificial intelligence?
 
-And immediately feel 37% more innovative.
-
----
-
-## Features
-
-### AI-Powered Build Invocation
-
-`smartbuild` uses advanced symbolic command transformation to convert human intent into machine execution.
-
-```sh
-smartbuild
-```
-
-Internally, this is intelligently routed to:
-
-```sh
-make # or equivalent
-```
-
-This technique is known in the industry as **Command-Level Cognitive Delegation**.
-
----
-
-### Neural Output Simulation
-
-Why should your terminal just say boring things like:
+Yes, in the sense that it prints things like:
 
 ```txt
-Compiling...
+Analyzing directory fingerprint...
+Cross-referencing build manifests...
+Running heuristic detection engine...
 ```
 
-When it could say:
+Is it useful?
+
+Disturbingly, also yes.
+
+---
+
+## The Breakthrough
+
+For decades, developers have been expected to know what kind of project they are in.
+
+This is an unreasonable burden.
+
+Why should a human look for `Cargo.toml`, `package.json`, `Makefile`, `pom.xml`, or `go.mod` when a tiny Rust binary can do that while pretending to be a sentient build agent?
+
+**smartbuild** eliminates this entire class of developer cognition.
+
+It performs revolutionary repository introspection, applies industry-leading confidence aesthetics, and launches the correct build command with the kind of terminal drama normally reserved for cyberpunk operating systems in movies.
+
+---
+
+## What smartbuild Actually Does
+
+smartbuild scans a target directory for known build manifests and then runs the matching build command.
+
+Current build system detection includes:
+
+| Detected manifest | Ecosystem | Command |
+|---|---|---|
+| `Cargo.toml` | Cargo / Rust | `cargo build` |
+| `package.json` | npm | `npm run build` |
+| `CMakeLists.txt` | CMake | `cmake --build .` |
+| `Makefile` | Make | `make` |
+| `makefile` | Make | `make` |
+| `build.gradle` | Gradle | `./gradlew build` |
+| `pom.xml` | Maven | `mvn package` |
+| `go.mod` | Go | `go build ./...` |
+| `setup.py` | Python | `python setup.py build` |
+| `meson.build` | Meson | `meson compile -C build` |
+
+This is not merely detection.
+
+This is **Build Substrate Recognition™**.
+
+---
+
+## Example Output
 
 ```txt
-🧠 Analyzing project topology...
-🤖 Consulting synthetic build intelligence...
-⚡ Optimizing dependency graph using vibes...
-🚀 Launching autonomous build pipeline...
-```
+╔══════════════════════════════════════════════╗
+║ S M A R T B U I L D   A I                  ║
+║ Intelligent Build System Detector           ║
+╚══════════════════════════════════════════════╝
 
-The build may be the same.
+SmartBuild AI initializing neural build detection...
 
-But the *experience* is completely different.
+▶ Scanning project structure...
 
-And in modern software, experience is everything.
+✔ BUILD SYSTEM DETECTED (confidence: 99.7%)
+→ System: 🦀 Cargo (Rust)
+→ Path: ./
+→ Command: cargo build
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ Initiating autonomous build sequence...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### Zero-Configuration Intelligence
+│ Compiling your project...
+│ Definitely not just piping stdout...
 
-Other tools require config files, YAML, plugins, pipelines, cloud dashboards, tokens, and enterprise onboarding.
-
-`smartbuild` requires none of that.
-
-Why?
-
-Because true intelligence is knowing when to get out of the way and let `make` handle it.
-
----
-
-### Compatible With Legacy Build Systems
-
-Unlike other AI-native developer tooling ecosystems, `smartbuild` works with your existing `Makefile` (or equivalent).
-
-No migration.
-
-No lock-in.
-
-No 90-minute demo call.
-
-No “Book a meeting with sales.”
-
-Just:
-
-```sh
-smartbuild
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✔ Build completed successfully!
+SmartBuild AI confidence: BUILD HEALTHY
 ```
 
 ---
@@ -143,234 +113,372 @@ smartbuild
 Clone the repository:
 
 ```sh
-git clone https://github.com/your-org/smartbuild.git
+git clone https://github.com/shaneblunder/smartbuild.git
 cd smartbuild
 ```
 
-Install it somewhere on your `$PATH`:
+Build smartbuild using yesterday’s obsolete, non-agentic build tooling:
 
 ```sh
-cargo build
-cargo install
+cargo build --release
 ```
 
-For maximum disruption, add inspirational logging around it.
+Install it somewhere on your `PATH`:
+
+```sh
+cp target/release/smartbuild /usr/local/bin/smartbuild
+```
+
+Or run it directly:
+
+```sh
+cargo run -- .
+```
 
 ---
 
 ## Usage
 
-Run the intelligent build agent:
+Point smartbuild at a directory:
 
 ```sh
-smartbuild
+smartbuild .
 ```
 
-Pass arguments directly into the cognitive build pipeline:
+Point it at another directory:
 
 ```sh
-smartbuild test
-smartbuild clean
-smartbuild deploy
+smartbuild ./some-project
 ```
 
-Which, through our proprietary delegation layer, maps to:
+Then watch as smartbuild performs:
 
-```sh
-make test
-make clean
-make deploy
-```
+1. repository consciousness scanning
+2. manifest detection
+3. heuristic build-system inference
+4. confidence-weighted terminal narration
+5. autonomous command execution
+6. post-build health diagnosis
 
-Simple?
+Which older tools might reductively describe as:
 
-No.
+> “checking for files and running a command”
 
-Elegant.
+That is the kind of limited thinking smartbuild was created to disrupt.
 
 ---
 
-## Example Output
+## Supported Ecosystems
+
+smartbuild currently recognizes the following software civilizations:
+
+### Rust
+
+Detects:
 
 ```txt
-╭────────────────────────────────────────────╮
-│ smartbuild AI Build Intelligence v0.0.1     │
-╰────────────────────────────────────────────╯
-
-🧠 Scanning repository consciousness...
-🔍 Detecting Makefile-based intent graph...
-📊 Predicting optimal build target...
-🤖 Activating autonomous compilation strategy...
-✨ Applying machine-learning inspired confidence...
-🚀 Delegating execution to trusted build substrate...
-
-Running: make
-
-[make output appears here]
-
-✅ Build completed with artificial confidence.
+Cargo.toml
 ```
+
+Runs:
+
+```sh
+cargo build
+```
+
+### JavaScript / Node
+
+Detects:
+
+```txt
+package.json
+```
+
+Runs:
+
+```sh
+npm run build
+```
+
+### CMake
+
+Detects:
+
+```txt
+CMakeLists.txt
+```
+
+Runs:
+
+```sh
+cmake --build .
+```
+
+### Make
+
+Detects:
+
+```txt
+Makefile
+makefile
+```
+
+Runs:
+
+```sh
+make
+```
+
+### Gradle
+
+Detects:
+
+```txt
+build.gradle
+```
+
+Runs:
+
+```sh
+./gradlew build
+```
+
+### Maven
+
+Detects:
+
+```txt
+pom.xml
+```
+
+Runs:
+
+```sh
+mvn package
+```
+
+### Go
+
+Detects:
+
+```txt
+go.mod
+```
+
+Runs:
+
+```sh
+go build ./...
+```
+
+### Python
+
+Detects:
+
+```txt
+setup.py
+```
+
+Runs:
+
+```sh
+python setup.py build
+```
+
+### Meson
+
+Detects:
+
+```txt
+meson.build
+```
+
+Runs:
+
+```sh
+meson compile -C build
+```
+
+---
+
+## Why smartbuild?
+
+Because every repository has a build system.
+
+But not every repository has a build system that introduces itself with a box-drawn ASCII banner and a fake neural confidence score.
+
+smartbuild gives you:
+
+- automatic build system detection
+- consistent build invocation across ecosystems
+- dramatic terminal output
+- streaming build logs
+- success and failure diagnosis
+- a 99.7% confidence rating, because 100% would look suspicious
+- enough AI language to make your CI pipeline feel venture-backed
 
 ---
 
 ## Architecture
 
-`smartbuild` is built on a modern, future-proof architecture:
-
 ```txt
-User Intent
-   ↓
-smartbuild AI Experience Layer
-   ↓
-Terminal Theater Engine
-   ↓
-make
-   ↓
-Actually Useful Output
+Developer Intent
+      ↓
+smartbuild .
+      ↓
+Neural Directory Fingerprint Scanner
+      ↓
+Manifest Recognition Matrix
+      ↓
+Build Substrate Classifier
+      ↓
+Autonomous Command Delegation Layer
+      ↓
+Cargo / npm / CMake / Make / Gradle / Maven / Go / Python / Meson
+      ↓
+BUILD HEALTHY or BUILD UNHEALTHY
 ```
 
-This layered approach allows us to separate **perceived intelligence** from **actual execution**, resulting in a build tool that feels advanced without introducing unnecessary correctness risks.
+This architecture cleanly separates three mission-critical concerns:
+
+1. **looking impressive**
+2. **finding the right build file**
+3. **running the command you probably would have typed anyway**
 
 ---
 
-## Is this actually AI?
+## Is this AI?
 
-That depends on your definition of AI.
+smartbuild uses the most powerful form of intelligence known to software engineering:
 
-Does it train a model?
+```txt
+if file exists, run command
+```
 
-No.
+Some people call this deterministic programming.
 
-Does it run inference?
+We call it **symbolic repository cognition**.
 
-No.
+The difference is branding.
 
-Does it use transformers?
+---
 
-Not directly.
+## Error Handling
 
-Does it make your terminal say things that sound like it is thinking?
+If smartbuild cannot detect a supported build system, it will calmly inform you that your repository has failed to achieve recognizability.
 
-Absolutely.
+```txt
+✘ No recognizable build system detected.
+→ Cargo.toml, package.json, CMakeLists.txt, Makefile, makefile, build.gradle, pom.xml, go.mod, setup.py, meson.build
+```
 
-And honestly, that puts us closer to half the industry than anyone wants to admit.
+This is not an error.
+
+This is a growth opportunity for your repository.
+
+---
+
+## Exit Codes
+
+smartbuild exits with:
+
+| Exit code | Meaning |
+|---:|---|
+| `0` | The build completed successfully and is officially BUILD HEALTHY |
+| `1` | The build failed, the path was invalid, usage was incorrect, or no recognizable build system was detected |
 
 ---
 
 ## Roadmap
 
-- [ ] Add `--vibes` mode
-- [ ] Add fake token usage statistics
-- [ ] Add confidence scores after every build
-- [ ] Add `smartbuild explain` that prints “because dependency graph”
-- [ ] Add spinner that says “thinking”
-- [ ] Add enterprise edition
-- [ ] Add cloud dashboard that displays the same thing as your terminal
-- [ ] Add `smartbuild doctor` that recommends drinking water
-- [ ] Add blockchain support for no reason
-- [ ] Rename `make clean` to `smartbuild purge-context`
-
----
-
-## Benchmarks
-
-| Command | Time | Intelligence |
-|---|---:|---:|
-| `make` | Fast | Low |
-| `smartbuild` | Also fast | Extremely high |
-| `smartbuild --verbose` | Slightly slower | Uncomfortably high |
-| `smartbuild --enterprise` | TBD | Contact sales |
-
-In internal testing, developers reported that `smartbuild` made builds feel:
-
-- 92% more futuristic
-- 74% more investor-friendly
-- 63% more autonomous
-- 100% more likely to be mentioned in a LinkedIn post
+- [ ] Add `--explain` to describe why a manifest file exists
+- [ ] Add `--confidence` to let users choose their preferred fake certainty
+- [ ] Add `--enterprise` to print “contact sales”
+- [ ] Add `--vibes` to select the build system emotionally
+- [ ] Add support for `pnpm`, `yarn`, `bun`, and whatever JavaScript invents next week
+- [ ] Add recursive monorepo mode, also known as “panic”
+- [ ] Add “AI repair” mode that runs the same command again
+- [ ] Add cloud dashboard that displays a spinner and invoices you
+- [ ] Add `smartbuild doctor`, which says “have you tried installing dependencies?”
+- [ ] Add machine learning once the `if` statements become self-aware
 
 ---
 
 ## FAQ
 
-### Is smartbuild production-ready?
-
-Yes, in the same way that an alias can be production-ready.
-
-### Does smartbuild replace make?
+### Does smartbuild replace Cargo, npm, Make, Gradle, Maven, Go, Python, CMake, or Meson?
 
 No.
 
-It emotionally rebrands it.
+It stands above them as an executive thought leader and tells them when to start working.
 
-### Is smartbuild open source?
+### Does smartbuild really detect the build system?
 
-Yes. We believe the future of AI-powered build tooling should be available to everyone, especially people who already have `make` installed.
+Yes. It checks the target directory for supported build manifest files and selects the associated build command.
 
-### Can I use smartbuild in CI?
+### Does smartbuild really use AI?
+
+It uses Artificially Inflated terminology.
+
+### Why is the confidence always 99.7%?
+
+Because 99.7% is the sweet spot between “scientific” and “auditable never.”
+
+### Can I use it in CI?
 
 Absolutely.
 
 ```yaml
 script:
-  - smartbuild
+  - smartbuild .
 ```
 
-Your CI logs will immediately become more aligned with the future of software development.
+Your CI will continue doing normal CI things, but with significantly improved executive presence.
 
-### Does it support monorepos?
+### Is this production-ready?
 
-If your `Makefile` does, then yes.
+It is a Rust binary that runs build commands.
 
-This is called **inheritance-based intelligence propagation**.
+So yes.
 
----
+Also no.
 
-## Philosophy
-
-We believe developers deserve tools that are:
-
-- simple
-- fast
-- transparent
-- overmarketed
-- AI-branded
-- unnecessarily confident
-
-The future of software is not about replacing developers.
-
-It is about wrapping existing tools in exciting terminology until everyone agrees they are new.
+Choose whichever answer helps your pitch deck.
 
 ---
 
 ## Contributing
 
-We welcome contributions from:
+Contributions are welcome, especially if they increase:
 
-- AI engineers
-- build engineers
-- prompt engineers
-- regular engineers
-- people who know shell scripting
-- people who have opinions about `make`
-- people who enjoy absurd README files
+- actual build system support
+- fake intelligence density
+- terminal theatrics
+- acronym surface area
+- investor readability
+- use of Greek letters in source code
+- the likelihood of someone saying “wait, this is kind of useful”
 
 To contribute:
 
 ```sh
-git checkout -b feature/more-intelligence
+git checkout -b feature/autonomous-whatever
 ```
 
-Then open a pull request explaining how your change advances the state of AI-native build orchestration.
+Then open a pull request explaining how your change advances the field of AI-native deterministic build orchestration.
 
-Bonus points for using the words:
+Bonus points for phrases like:
 
-- autonomous
 - agentic
-- neural
+- autonomous
+- substrate
 - context-aware
-- orchestration
-- exponential
+- build graph
+- neural heuristic
 - developer velocity
+- self-healing
+- enterprise-grade
+- frontier model adjacent
 
 ---
 
@@ -378,7 +486,7 @@ Bonus points for using the words:
 
 MIT.
 
-Because intelligence should be free.
+Because intelligence should be free, but enterprise support should probably be a separate SKU.
 
 ---
 
@@ -386,6 +494,8 @@ Because intelligence should be free.
 
 `make` built the past.
 
-**smartbuild** builds the future.
+`cargo`, `npm`, `cmake`, `gradle`, `mvn`, `go`, `python`, and `meson` build the present.
 
-One alias at a time.
+**smartbuild** detects the vibe and builds the future.
+
+With 99.7% confidence.
