@@ -22,20 +22,6 @@ smartbuild .
 
 Then smartbuild stares deeply into your repository’s soul and decides whether it is dealing with Cargo, npm, CMake, Make, Gradle, Maven, Go, Python, Meson, or whichever build ritual your codebase has chosen as its emotional support system.
 
-Is it artificial intelligence?
-
-Yes, in the sense that it prints things like:
-
-```txt
-Analyzing directory fingerprint...
-Cross-referencing build manifests...
-Running heuristic detection engine...
-```
-
-Is it useful?
-
-Disturbingly, also yes.
-
 ---
 
 ## The Breakthrough
@@ -49,62 +35,6 @@ Why should a human look for `Cargo.toml`, `package.json`, `Makefile`, `pom.xml`,
 **smartbuild** eliminates this entire class of developer cognition.
 
 It performs revolutionary repository introspection, applies industry-leading confidence aesthetics, and launches the correct build command with the kind of terminal drama normally reserved for cyberpunk operating systems in movies.
-
----
-
-## What smartbuild Actually Does
-
-smartbuild scans a target directory for known build manifests and then runs the matching build command.
-
-Current build system detection includes:
-
-| Detected manifest | Ecosystem | Command |
-|---|---|---|
-| `Cargo.toml` | Cargo / Rust | `cargo build` |
-| `package.json` | npm | `npm run build` |
-| `CMakeLists.txt` | CMake | `cmake --build .` |
-| `Makefile` | Make | `make` |
-| `makefile` | Make | `make` |
-| `build.gradle` | Gradle | `./gradlew build` |
-| `pom.xml` | Maven | `mvn package` |
-| `go.mod` | Go | `go build ./...` |
-| `setup.py` | Python | `python setup.py build` |
-| `meson.build` | Meson | `meson compile -C build` |
-
-This is not merely detection.
-
-This is **Build Substrate Recognition™**.
-
----
-
-## Example Output
-
-```txt
-╔══════════════════════════════════════════════╗
-║ S M A R T B U I L D   A I                  ║
-║ Intelligent Build System Detector           ║
-╚══════════════════════════════════════════════╝
-
-SmartBuild AI initializing neural build detection...
-
-▶ Scanning project structure...
-
-✔ BUILD SYSTEM DETECTED (confidence: 99.7%)
-→ System: 🦀 Cargo (Rust)
-→ Path: ./
-→ Command: cargo build
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚡ Initiating autonomous build sequence...
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-│ Compiling your project...
-│ Definitely not just piping stdout...
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✔ Build completed successfully!
-SmartBuild AI confidence: BUILD HEALTHY
-```
 
 ---
 
@@ -165,139 +95,6 @@ Which older tools might reductively describe as:
 > “checking for files and running a command”
 
 That is the kind of limited thinking smartbuild was created to disrupt.
-
----
-
-## Supported Ecosystems
-
-smartbuild currently recognizes the following software civilizations:
-
-### Rust
-
-Detects:
-
-```txt
-Cargo.toml
-```
-
-Runs:
-
-```sh
-cargo build
-```
-
-### JavaScript / Node
-
-Detects:
-
-```txt
-package.json
-```
-
-Runs:
-
-```sh
-npm run build
-```
-
-### CMake
-
-Detects:
-
-```txt
-CMakeLists.txt
-```
-
-Runs:
-
-```sh
-cmake --build .
-```
-
-### Make
-
-Detects:
-
-```txt
-Makefile
-makefile
-```
-
-Runs:
-
-```sh
-make
-```
-
-### Gradle
-
-Detects:
-
-```txt
-build.gradle
-```
-
-Runs:
-
-```sh
-./gradlew build
-```
-
-### Maven
-
-Detects:
-
-```txt
-pom.xml
-```
-
-Runs:
-
-```sh
-mvn package
-```
-
-### Go
-
-Detects:
-
-```txt
-go.mod
-```
-
-Runs:
-
-```sh
-go build ./...
-```
-
-### Python
-
-Detects:
-
-```txt
-setup.py
-```
-
-Runs:
-
-```sh
-python setup.py build
-```
-
-### Meson
-
-Detects:
-
-```txt
-meson.build
-```
-
-Runs:
-
-```sh
-meson compile -C build
-```
 
 ---
 
@@ -382,10 +179,10 @@ This is a growth opportunity for your repository.
 
 smartbuild exits with:
 
-| Exit code | Meaning |
-|---:|---|
-| `0` | The build completed successfully and is officially BUILD HEALTHY |
-| `1` | The build failed, the path was invalid, usage was incorrect, or no recognizable build system was detected |
+| Exit code | Meaning                                                                                                   |
+| --------: | --------------------------------------------------------------------------------------------------------- |
+|       `0` | The build completed successfully and is officially BUILD HEALTHY                                          |
+|       `1` | The build failed, the path was invalid, usage was incorrect, or no recognizable build system was detected |
 
 ---
 
@@ -414,15 +211,11 @@ It stands above them as an executive thought leader and tells them when to start
 
 ### Does smartbuild really detect the build system?
 
-Yes. It checks the target directory for supported build manifest files and selects the associated build command.
+Yes. It checks the target directory through highly complicated detection systems and selects the associated build command.
 
 ### Does smartbuild really use AI?
 
 It uses Artificially Inflated terminology.
-
-### Why is the confidence always 99.7%?
-
-Because 99.7% is the sweet spot between “scientific” and “auditable never.”
 
 ### Can I use it in CI?
 
@@ -452,12 +245,9 @@ Choose whichever answer helps your pitch deck.
 Contributions are welcome, especially if they increase:
 
 - actual build system support
-- fake intelligence density
 - terminal theatrics
 - acronym surface area
 - investor readability
-- use of Greek letters in source code
-- the likelihood of someone saying “wait, this is kind of useful”
 
 To contribute:
 
